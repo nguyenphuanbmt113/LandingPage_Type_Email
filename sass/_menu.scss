@@ -1,0 +1,11 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0 36px;
+  &__link {
+    color: var(--grayb5);
+    &:hover {
+      color: var(--white);
+    }
+  }
+}

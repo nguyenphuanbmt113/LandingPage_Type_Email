@@ -1,0 +1,57 @@
+.header {
+  background: #1e1e1e;
+  padding: 48px 0 1px;
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 83px;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+    font-size: 25px;
+    font-weight: 600;
+
+    span {
+      background: linear-gradient(93.52deg, #e6ff4b 8.71%, #00bd82 98.16%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+  &__login {
+    display: inline-block;
+    color: white;
+    padding: 9px 25px;
+    background: var(--grayb5);
+    border-radius: 6px;
+    line-height: 1.625;
+  }
+  &__content {
+    max-width: 873px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  &__heading {
+    font-size: 52px;
+    line-height: calc(62 / 52);
+    margin-bottom: 45px;
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 28px;
+    margin-bottom: 88px;
+  }
+  &__works {
+    display: flex;
+    align-items: center;
+    gap: 0 16px;
+    color: white;
+    font-size: 18px;
+  }
+}

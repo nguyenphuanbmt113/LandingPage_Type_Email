@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #333;
+  scroll-behavior: smooth;
+  font-family: "Sora", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+label,
+button,
+input,
+textarea,
+select {
+  cursor: pointer;
+  font-size: 14px;
+  outline: 0;
+  border: none;
+}
+
+:root {
+  --primary-font: "Sora", sans-serif;
+  --body-bg: #fdf9f1;
+  --gray1e: #1e1e1e;
+  --grayb5: #b5b3af;
+  --gray7d: #7d7d7d;
+  --white: #fff;
+  --body-size: 1440px;
+  --container: 1100px;
+  --gap: 15px;
+  --primary-color: #00bd82;
+  --primary-yellow: #e2f471;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 1130px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: var(--body-bg);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.text-primary {
+  background: linear-gradient(93.52deg, #e6ff4b 8.71%, #00bd82 98.16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+span {
+  color: var(--grayb5);
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  line-height: 1;
+  border: 0;
+  outline: none;
+  padding: 15px 30px;
+  font-size: 18px;
+}
+.btn--primary {
+  background: var(--primary-color);
+}
+
+.heading {
+  font-weight: 600;
+  color: var(--gray1e);
+}
+.heading--big {
+  font-size: 50px;
+  line-height: 1.26;
+}
+.heading--nomal {
+  font-size: 40px;
+  line-height: 1.25;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+}
+.text--center {
+  text-align: center;
+}
+
+.header {
+  background: #1e1e1e;
+  padding: 48px 0 1px;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 83px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.header__logo span {
+  background: linear-gradient(93.52deg, #e6ff4b 8.71%, #00bd82 98.16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.header__login {
+  display: inline-block;
+  color: white;
+  padding: 9px 25px;
+  background: var(--grayb5);
+  border-radius: 6px;
+  line-height: 1.625;
+}
+.header__content {
+  max-width: 873px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.header__heading {
+  font-size: 52px;
+  line-height: 1.1923076923;
+  margin-bottom: 45px;
+}
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 28px;
+  margin-bottom: 88px;
+}
+.header__works {
+  display: flex;
+  align-items: center;
+  gap: 0 16px;
+  color: white;
+  font-size: 18px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0 36px;
+}
+.menu__link {
+  color: var(--grayb5);
+}
+.menu__link:hover {
+  color: var(--white);
+}
+
+.countdown {
+  background: var(--primary-yellow);
+  padding: 69px 0 47px;
+}
+.countdown__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: center;
+}
+.countdown__title {
+  color: var(--gray1e);
+  font-weight: 600;
+  font-size: 44px;
+  margin-bottom: 22px;
+  line-height: 1.25;
+}
+.countdown__text {
+  font-size: 18px;
+  line-height: 1.5555555556;
+}
+
+.newsletter {
+  position: relative;
+}
+.newsletter-header {
+  margin-bottom: 95px;
+}
+.newsletter .heading--big {
+  max-width: 629px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.newsletter-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.newsletter-image {
+  flex-shrink: 0;
+}
+.newsletter-title {
+  margin-bottom: 18px;
+  max-width: 308px;
+}
+.newsletter-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.newsletter-desc {
+  margin-bottom: 37px;
+  line-height: 1.5555555556;
+}
+.newsletter-icon {
+  margin-bottom: 19px;
+}
+.newsletter-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+/*# sourceMappingURL=app.css.map */
